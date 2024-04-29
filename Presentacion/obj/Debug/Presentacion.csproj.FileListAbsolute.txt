@@ -1,0 +1,17 @@
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Presentacion.exe
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Presentacion.pdb
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.Form1.resources
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.exe
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.pdb
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.Articulos.resources
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Dominio.dll
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Negocio.dll
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Dominio.pdb
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Negocio.pdb
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
+D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.frmAltaArticulo.resources
