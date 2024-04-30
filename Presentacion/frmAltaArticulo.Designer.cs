@@ -44,13 +44,15 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.cbMarca = new System.Windows.Forms.ComboBox();
             this.cbCategorias = new System.Windows.Forms.ComboBox();
+            this.pbImagenAgregar = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImagenAgregar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 38);
+            this.label1.Location = new System.Drawing.Point(136, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 20);
             this.label1.TabIndex = 0;
@@ -60,7 +62,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(49, 71);
+            this.label2.Location = new System.Drawing.Point(131, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 20);
             this.label2.TabIndex = 1;
@@ -70,7 +72,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 106);
+            this.label3.Location = new System.Drawing.Point(109, 123);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 20);
             this.label3.TabIndex = 2;
@@ -80,7 +82,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(58, 144);
+            this.label4.Location = new System.Drawing.Point(140, 161);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 20);
             this.label4.TabIndex = 3;
@@ -90,7 +92,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(41, 178);
+            this.label5.Location = new System.Drawing.Point(123, 195);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 20);
             this.label5.TabIndex = 4;
@@ -100,7 +102,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(53, 215);
+            this.label6.Location = new System.Drawing.Point(135, 232);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(51, 20);
             this.label6.TabIndex = 5;
@@ -110,7 +112,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(58, 249);
+            this.label7.Location = new System.Drawing.Point(140, 266);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(45, 20);
             this.label7.TabIndex = 6;
@@ -119,52 +121,53 @@
             // tbCodigo
             // 
             this.tbCodigo.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCodigo.Location = new System.Drawing.Point(106, 35);
+            this.tbCodigo.Location = new System.Drawing.Point(188, 52);
             this.tbCodigo.Name = "tbCodigo";
             this.tbCodigo.Size = new System.Drawing.Size(221, 25);
-            this.tbCodigo.TabIndex = 7;
+            this.tbCodigo.TabIndex = 0;
             // 
             // tbNombre
             // 
             this.tbNombre.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbNombre.Location = new System.Drawing.Point(106, 68);
+            this.tbNombre.Location = new System.Drawing.Point(188, 85);
             this.tbNombre.Name = "tbNombre";
             this.tbNombre.Size = new System.Drawing.Size(221, 25);
-            this.tbNombre.TabIndex = 8;
+            this.tbNombre.TabIndex = 1;
             // 
             // tbDescripcion
             // 
             this.tbDescripcion.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbDescripcion.Location = new System.Drawing.Point(106, 103);
+            this.tbDescripcion.Location = new System.Drawing.Point(188, 120);
             this.tbDescripcion.Name = "tbDescripcion";
             this.tbDescripcion.Size = new System.Drawing.Size(221, 25);
-            this.tbDescripcion.TabIndex = 9;
+            this.tbDescripcion.TabIndex = 2;
             // 
             // tbImagen
             // 
             this.tbImagen.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbImagen.Location = new System.Drawing.Point(106, 212);
+            this.tbImagen.Location = new System.Drawing.Point(188, 229);
             this.tbImagen.Name = "tbImagen";
             this.tbImagen.Size = new System.Drawing.Size(221, 25);
-            this.tbImagen.TabIndex = 12;
+            this.tbImagen.TabIndex = 5;
+            this.tbImagen.Leave += new System.EventHandler(this.tbImagen_Leave);
             // 
             // tbPrecio
             // 
             this.tbPrecio.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPrecio.Location = new System.Drawing.Point(106, 247);
+            this.tbPrecio.Location = new System.Drawing.Point(188, 264);
             this.tbPrecio.Name = "tbPrecio";
             this.tbPrecio.Size = new System.Drawing.Size(221, 25);
-            this.tbPrecio.TabIndex = 13;
+            this.tbPrecio.TabIndex = 6;
             // 
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(121)))), ((int)(((byte)(203)))));
             this.btnAgregar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnAgregar.Location = new System.Drawing.Point(681, 382);
+            this.btnAgregar.Location = new System.Drawing.Point(573, 360);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(90, 40);
-            this.btnAgregar.TabIndex = 14;
+            this.btnAgregar.TabIndex = 7;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -174,10 +177,10 @@
             this.btnCancelar.BackColor = System.Drawing.Color.Red;
             this.btnCancelar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCancelar.Location = new System.Drawing.Point(14, 382);
+            this.btnCancelar.Location = new System.Drawing.Point(113, 360);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(90, 40);
-            this.btnCancelar.TabIndex = 15;
+            this.btnCancelar.TabIndex = 8;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
@@ -187,20 +190,29 @@
             this.cbMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbMarca.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMarca.FormattingEnabled = true;
-            this.cbMarca.Location = new System.Drawing.Point(106, 140);
+            this.cbMarca.Location = new System.Drawing.Point(188, 157);
             this.cbMarca.Name = "cbMarca";
             this.cbMarca.Size = new System.Drawing.Size(221, 28);
-            this.cbMarca.TabIndex = 16;
+            this.cbMarca.TabIndex = 3;
             // 
             // cbCategorias
             // 
             this.cbCategorias.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCategorias.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbCategorias.FormattingEnabled = true;
-            this.cbCategorias.Location = new System.Drawing.Point(106, 174);
+            this.cbCategorias.Location = new System.Drawing.Point(188, 191);
             this.cbCategorias.Name = "cbCategorias";
             this.cbCategorias.Size = new System.Drawing.Size(221, 28);
-            this.cbCategorias.TabIndex = 17;
+            this.cbCategorias.TabIndex = 4;
+            // 
+            // pbImagenAgregar
+            // 
+            this.pbImagenAgregar.Location = new System.Drawing.Point(461, 50);
+            this.pbImagenAgregar.Name = "pbImagenAgregar";
+            this.pbImagenAgregar.Size = new System.Drawing.Size(202, 202);
+            this.pbImagenAgregar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbImagenAgregar.TabIndex = 18;
+            this.pbImagenAgregar.TabStop = false;
             // 
             // frmAltaArticulo
             // 
@@ -208,6 +220,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pbImagenAgregar);
             this.Controls.Add(this.cbCategorias);
             this.Controls.Add(this.cbMarca);
             this.Controls.Add(this.btnCancelar);
@@ -230,6 +243,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nuevo Articulo";
             this.Load += new System.EventHandler(this.frmAltaArticulo_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbImagenAgregar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -253,5 +267,6 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.ComboBox cbMarca;
         private System.Windows.Forms.ComboBox cbCategorias;
+        private System.Windows.Forms.PictureBox pbImagenAgregar;
     }
 }

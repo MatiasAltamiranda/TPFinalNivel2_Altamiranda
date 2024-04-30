@@ -78,5 +78,21 @@ namespace Negocio
             }
         }
 
+        public void eliminar(int id)
+        {
+            try
+            {
+                ConexionDB conexionDB = new ConexionDB();
+                conexionDB.setearConsulta("Delete from ARTICULOS where id=@id");
+                conexionDB.setearParametro("@id", id);
+                conexionDB.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
 }
 }

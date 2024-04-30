@@ -54,6 +54,7 @@ namespace Presentacion
             {
                 Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
                 cargarImagen(seleccionado.ImagenUrl);
+                imgCaption.Text = seleccionado.Nombre;
             }
         }
 
@@ -82,6 +83,26 @@ namespace Presentacion
             cargar();
         }
 
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            ArticuloNegocio negocio = new ArticuloNegocio();
+            Articulo articuloSeleccionado;
 
+            try
+            {
+                DialogResult respuesta = MessageBox.Show("Estas por eliminar el articulo permanentemente, ¿Estas seguro?", "Eliminar Articulo", MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+                if(respuesta == DialogResult.Yes)
+                {
+                articuloSeleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                negocio.eliminar(articuloSeleccionado.Id);
+                cargar();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+        }
     }
 }

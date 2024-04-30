@@ -66,5 +66,25 @@ namespace Presentacion
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void tbImagen_Leave(object sender, EventArgs e)
+        {
+           cargarImagen(tbImagen.Text);
+        }
+
+        private void cargarImagen(string imagen)
+        {
+            try
+            {
+                pbImagenAgregar.Load(imagen);
+            }
+            catch (Exception)
+            {
+
+                pbImagenAgregar.Load("https://static.vecteezy.com/system/resources/previews/005/337/799/original/icon-image-not-found-free-vector.jpg");
+            }
+        }
+
+       
     }
 }
