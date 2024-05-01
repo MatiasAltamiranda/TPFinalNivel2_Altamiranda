@@ -104,5 +104,14 @@ namespace Presentacion
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Articulo seleccionado;
+            seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+            frmAltaArticulo frmModificar = new frmAltaArticulo(seleccionado);
+            frmModificar.ShowDialog();
+            cargar();
+        }
     }
 }

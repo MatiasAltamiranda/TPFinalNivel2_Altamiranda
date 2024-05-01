@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|d:\\matias\\cursos\\maxiprograma\\entrega proyecto 2\\tpfinalnivel2_altamiranda\\presentacion\\frmaltaarticulo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\frmaltaarticulo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FF57773B-71C1-4F16-BAE5-FDA21D20131E}|Negocio\\Negocio.csproj|D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF57773B-71C1-4F16-BAE5-FDA21D20131E}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|d:\\matias\\cursos\\maxiprograma\\entrega proyecto 2\\tpfinalnivel2_altamiranda\\presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|d:\\matias\\cursos\\maxiprograma\\entrega proyecto 2\\tpfinalnivel2_altamiranda\\presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF57773B-71C1-4F16-BAE5-FDA21D20131E}|Negocio\\Negocio.csproj|D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF57773B-71C1-4F16-BAE5-FDA21D20131E}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\presentacion\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form2.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\Form2.cs",
               "RelativeDocumentMoniker": "Presentacion\\Form2.cs",
@@ -59,45 +55,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmAltaArticulo.Designer.cs",
-              "DocumentMoniker": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\frmAltaArticulo.Designer.cs",
-              "RelativeDocumentMoniker": "Presentacion\\frmAltaArticulo.Designer.cs",
-              "ToolTip": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\frmAltaArticulo.Designer.cs",
-              "RelativeToolTip": "Presentacion\\frmAltaArticulo.Designer.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAQwJYAAAAnAAAA",
+              "DocumentIndex": 2,
+              "Title": "frmAltaArticulo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "Presentacion\\frmAltaArticulo.cs",
+              "ToolTip": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\frmAltaArticulo.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Presentacion\\frmAltaArticulo.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T23:56:27.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T23:11:21.928Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form2.cs",
               "DocumentMoniker": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\Form2.cs",
               "RelativeDocumentMoniker": "Presentacion\\Form2.cs",
               "ToolTip": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\Form2.cs",
               "RelativeToolTip": "Presentacion\\Form2.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAqwGYAAAAAAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwG8AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T23:16:00.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmAltaArticulo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\frmAltaArticulo.cs",
-              "RelativeDocumentMoniker": "Presentacion\\frmAltaArticulo.cs",
-              "ToolTip": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\frmAltaArticulo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\frmAltaArticulo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T23:15:43.212Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ConexionDB.cs",
               "DocumentMoniker": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Negocio\\ConexionDB.cs",
               "RelativeDocumentMoniker": "Negocio\\ConexionDB.cs",
@@ -109,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Form2.Designer.cs",
               "DocumentMoniker": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\Form2.Designer.cs",
               "RelativeDocumentMoniker": "Presentacion\\Form2.Designer.cs",
@@ -122,26 +105,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmAltaArticulo.cs",
               "DocumentMoniker": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\frmAltaArticulo.cs",
               "RelativeDocumentMoniker": "Presentacion\\frmAltaArticulo.cs",
-              "ToolTip": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\frmAltaArticulo.cs",
-              "RelativeToolTip": "Presentacion\\frmAltaArticulo.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAqwFcAAAAHAAAA",
+              "ToolTip": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\frmAltaArticulo.cs*",
+              "RelativeToolTip": "Presentacion\\frmAltaArticulo.cs*",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T22:12:31.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ArticuloNegocio.cs",
               "DocumentMoniker": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Negocio\\ArticuloNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
-              "ToolTip": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Negocio\\ArticuloNegocio.cs",
-              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAowFcAAAAsAAAA",
+              "ToolTip": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Negocio\\ArticuloNegocio.cs*",
+              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs*",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAwwF4AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T05:14:18.573Z",
               "EditorCaption": ""

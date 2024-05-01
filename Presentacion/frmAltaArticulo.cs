@@ -14,9 +14,18 @@ namespace Presentacion
 {
     public partial class frmAltaArticulo : Form
     {
+        private Articulo articulo = null;
         public frmAltaArticulo()
         {
             InitializeComponent();
+        }
+
+        public frmAltaArticulo(Articulo articulo)
+        {
+            InitializeComponent();
+            this.articulo = articulo;
+            Text = "Modificar Articulo";
+            btnAgregar.Text = "Modificar";
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -26,21 +35,36 @@ namespace Presentacion
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Articulo nuevoArticulo = new Articulo();
+           
             ArticuloNegocio articuloNegocio = new ArticuloNegocio();
 
             try
             {
-               nuevoArticulo.Codigo = tbCodigo.Text;
-               nuevoArticulo.Nombre = tbNombre.Text;
-               nuevoArticulo.Descripcion = tbDescripcion.Text;
-               nuevoArticulo.ImagenUrl = tbImagen.Text;
-               nuevoArticulo.Marca = (Marca) cbMarca.SelectedItem;
-               nuevoArticulo.Categoria = (Categoria)cbCategorias.SelectedItem;
-               nuevoArticulo.Precio = decimal.Parse(tbPrecio.Text);
+               if(articulo == null)
+                    articulo = new Articulo();
 
-               articuloNegocio.agregar(nuevoArticulo);
-               MessageBox.Show("Articulo agregado exitosamente");
+               articulo.Codigo = tbCodigo.Text;
+               articulo.Nombre = tbNombre.Text;
+               articulo.Descripcion = tbDescripcion.Text;
+               articulo.ImagenUrl = tbImagen.Text;
+               articulo.Marca = (Marca) cbMarca.SelectedItem;
+               articulo.Categoria = (Categoria)cbCategorias.SelectedItem;
+               articulo.Precio = decimal.Parse(tbPrecio.Text);
+
+
+               if(articulo.Id != 0)
+                {
+                    articuloNegocio.modificar(articulo);
+                    MessageBox.Show("Articulo modificado exitosamente");
+                }
+                else
+                {
+                    articuloNegocio.agregar(articulo);
+                    MessageBox.Show("Articulo agregado exitosamente");
+                }
+
+
+
                Close();
             }
             catch (Exception ex)
@@ -58,7 +82,24 @@ namespace Presentacion
             try
             {
                 cbMarca.DataSource = marcaNegocio.listar();
+                cbMarca.ValueMember = "Id";
+                cbMarca.DisplayMember = "Descripcion";
                 cbCategorias.DataSource = categoriaNegocio.listar();
+                cbCategorias.ValueMember = "Id";
+                cbCategorias.DisplayMember = "Descripcion";
+
+
+                if (articulo !=null)
+                {
+                    tbCodigo.Text = articulo.Codigo;
+                    tbNombre.Text = articulo.Nombre;
+                    tbDescripcion.Text = articulo.Descripcion;
+                    tbImagen.Text = articulo.ImagenUrl;
+                    tbPrecio.Text = articulo.Precio.ToString();
+                    cargarImagen(articulo.ImagenUrl);
+                    cbMarca.SelectedValue = articulo.Marca.Id;
+                    cbCategorias.SelectedValue = articulo.Categoria.Id;
+                }
             }
             catch (Exception ex)
             {

@@ -92,6 +92,35 @@ namespace Negocio
 
                 throw ex;
             }
+          
+        }
+
+        public void modificar(Articulo articulo)
+        {
+            ConexionDB conexionDB = new ConexionDB();
+
+            try
+            {
+                conexionDB.setearConsulta("update ARTICULOS set Codigo=@codigo,Nombre=@nombre,Descripcion=@descripcion,IdMarca =@idMarca,IdCategoria=@idCategoria,ImagenUrl=@imagen,Precio=@precio where id=@id");
+                conexionDB.setearParametro("@codigo", articulo.Codigo);
+                conexionDB.setearParametro("@nombre", articulo.Nombre);
+                conexionDB.setearParametro("@descripcion", articulo.Descripcion);
+                conexionDB.setearParametro("@idMarca", articulo.Marca.Id);
+                conexionDB.setearParametro("@idCategoria", articulo.Categoria.Id);
+                conexionDB.setearParametro("@imagen", articulo.ImagenUrl);
+                conexionDB.setearParametro("@precio", articulo.Precio);
+                conexionDB.setearParametro("@id", articulo.Id);
+                conexionDB.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                conexionDB.cerrarConexion();
+            }
         }
 
 }
