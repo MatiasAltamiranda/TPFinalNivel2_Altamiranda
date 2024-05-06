@@ -25,7 +25,9 @@ namespace Presentacion
         private void Articulos_Load(object sender, EventArgs e)
         {
             cargar();
-
+            cbCampo.Items.Add("Precio");
+            cbCampo.Items.Add("Marca");
+            cbCampo.Items.Add("Categoria");
         }
 
 
@@ -113,5 +115,73 @@ namespace Presentacion
             frmModificar.ShowDialog();
             cargar();
         }
+
+   
+
+        private void tbFiltro_TextChanged(object sender, EventArgs e)
+        {
+            List<Articulo> listaFiltrada;
+            string filtro = tbFiltro.Text;
+
+            if (filtro.Length >= 2)
+            {
+                listaFiltrada = listaArticulos.FindAll(a => a.Nombre.ToLower().Contains(filtro.ToLower()) || a.Codigo.ToLower().Contains(filtro.ToLower()));
+            }
+            else
+            {
+                listaFiltrada = listaArticulos;
+            }
+            dgvArticulos.DataSource = null;
+            dgvArticulos.DataSource = listaFiltrada;
+            ocultarColumnas();
+        }
+
+        private void tbFiltro_Enter(object sender, EventArgs e)
+        {
+            tbFiltro.Text = "";
+            tbFiltro.BackColor = Color.White;
+            tbFiltro.ForeColor = Color.Black;
+        }
+
+        private void cbCampo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           string opcion = cbCampo.SelectedItem.ToString();
+
+           if(opcion == "Precio")
+            {
+                cbCriterio.Items.Clear();
+                cbCriterio.Items.Add("Mayor a");
+                cbCriterio.Items.Add("Menor a");
+                cbCriterio.Items.Add("Igual a");
+            }
+            else
+            {
+                cbCriterio.Items.Clear();
+                cbCriterio.Items.Add("Comienza con");
+                cbCriterio.Items.Add("Termina con");
+                cbCriterio.Items.Add("Contiene");
+            }
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            ArticuloNegocio negocio = new ArticuloNegocio();
+
+            try
+            {
+
+            string campo = cbCampo.SelectedItem.ToString();
+            string critero = cbCriterio.SelectedItem.ToString();    
+            string filtro = tbValor.Text;
+             dgvArticulos.DataSource = negocio.filtrar(campo, critero, filtro);
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+      
     }
 }
