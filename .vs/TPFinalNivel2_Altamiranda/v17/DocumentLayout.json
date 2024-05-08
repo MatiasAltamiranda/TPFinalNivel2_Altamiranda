@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|d:\\matias\\cursos\\maxiprograma\\entrega proyecto 2\\tpfinalnivel2_altamiranda\\presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|d:\\matias\\cursos\\maxiprograma\\entrega proyecto 2\\tpfinalnivel2_altamiranda\\presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{90241145-4850-47E3-9FFD-3FCC899BFC9B}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Presentacion\\Form2.cs",
               "ToolTip": "D:\\Matias\\Cursos\\MaxiPrograma\\Entrega proyecto 2\\TPFinalNivel2_Altamiranda\\Presentacion\\Form2.cs",
               "RelativeToolTip": "Presentacion\\Form2.cs",
-              "ViewState": "AQIAAKAAAAAAAAAAAIAwwK4AAAAjAAAA",
+              "ViewState": "AQIAALUAAAAAAAAAAAAcwMcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T23:16:00.847Z",
               "EditorCaption": ""

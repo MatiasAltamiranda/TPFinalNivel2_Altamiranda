@@ -35,44 +35,48 @@ namespace Presentacion
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-           
             ArticuloNegocio articuloNegocio = new ArticuloNegocio();
 
             try
             {
-               if(articulo == null)
-                    articulo = new Articulo();
-
-               articulo.Codigo = tbCodigo.Text;
-               articulo.Nombre = tbNombre.Text;
-               articulo.Descripcion = tbDescripcion.Text;
-               articulo.ImagenUrl = tbImagen.Text;
-               articulo.Marca = (Marca) cbMarca.SelectedItem;
-               articulo.Categoria = (Categoria)cbCategorias.SelectedItem;
-               articulo.Precio = decimal.Parse(tbPrecio.Text);
-
-
-               if(articulo.Id != 0)
+                if (tbCodigo.Text == "" || tbNombre.Text == "" || tbDescripcion.Text == "" || tbImagen.Text == "" || tbPrecio.Text == "")
                 {
-                    articuloNegocio.modificar(articulo);
-                    MessageBox.Show("Articulo modificado exitosamente");
+                    MessageBox.Show("Todos los campos son requeridos");
                 }
                 else
                 {
-                    articuloNegocio.agregar(articulo);
-                    MessageBox.Show("Articulo agregado exitosamente");
+                    if (articulo == null)
+                        articulo = new Articulo();
+
+                    articulo.Codigo = tbCodigo.Text;
+                    articulo.Nombre = tbNombre.Text;
+                    articulo.Descripcion = tbDescripcion.Text;
+                    articulo.ImagenUrl = tbImagen.Text;
+                    articulo.Marca = (Marca)cbMarca.SelectedItem;
+                    articulo.Categoria = (Categoria)cbCategorias.SelectedItem;
+                    articulo.Precio = decimal.Parse(tbPrecio.Text);
+
+                    if (articulo.Id != 0)
+                    {
+                        articuloNegocio.modificar(articulo);
+                        MessageBox.Show("Articulo modificado exitosamente");
+                    }
+                    else
+                    {
+                        articuloNegocio.agregar(articulo);
+                        MessageBox.Show("Articulo agregado exitosamente");
+                    }
+                    Close();
                 }
 
-
-
-               Close();
+               
             }
             catch (Exception ex)
             {
-
                 MessageBox.Show(ex.ToString());
             }
         }
+
 
         private void frmAltaArticulo_Load(object sender, EventArgs e)
         {
@@ -126,6 +130,12 @@ namespace Presentacion
             }
         }
 
-       
+        private void tbPrecio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            {
+                if ((e.KeyChar < 48 || e.KeyChar > 59 ) && e.KeyChar != 8 && e.KeyChar == 46)
+                    e.Handled = true;
+            }
+        }
     }
 }

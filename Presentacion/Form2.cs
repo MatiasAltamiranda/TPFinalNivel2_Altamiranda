@@ -153,7 +153,9 @@ namespace Presentacion
                 cbCriterio.Items.Add("Mayor a");
                 cbCriterio.Items.Add("Menor a");
                 cbCriterio.Items.Add("Igual a");
-            }
+                tbValor.Text = "0";
+
+                }
             else
             {
                 cbCriterio.Items.Clear();
@@ -163,17 +165,57 @@ namespace Presentacion
             }
         }
 
+        private bool validarFiltro()
+        {
+            if (cbCampo.SelectedIndex < 0)
+            {
+                MessageBox.Show("Por favor, seleccione un campo para filtrar");
+                return true; 
+            }
+            if (cbCriterio.SelectedIndex < 0)
+            {
+                MessageBox.Show("Por favor, seleccione el criterio para filtrar");
+                return true; 
+            }
+
+            if (cbCampo.SelectedItem.ToString() == "Precio")
+            {
+                if (!(soloNumeros(tbValor.Text)) || tbValor.Text == "")
+                {
+                    MessageBox.Show("El campo valor solo debe contener valores numericos");
+                    return true ;
+                }
+            }
+               
+            return false; 
+        }
+
+        private bool soloNumeros(string cadena)
+        {
+            foreach(char caracter in cadena)
+            {
+                if (!(char.IsNumber(caracter)))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
 
             try
             {
-
+            
+            if (validarFiltro()) return;
             string campo = cbCampo.SelectedItem.ToString();
             string critero = cbCriterio.SelectedItem.ToString();    
             string filtro = tbValor.Text;
-             dgvArticulos.DataSource = negocio.filtrar(campo, critero, filtro);
+            dgvArticulos.DataSource = negocio.filtrar(campo, critero, filtro);
             }
             catch (Exception ex)
             {
