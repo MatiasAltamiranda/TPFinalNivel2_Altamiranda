@@ -225,10 +225,17 @@ namespace Presentacion
 
         private void btnDetalle_Click(object sender, EventArgs e)
         {
-            Articulo seleccionado;
-            seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
-            frmDetalleArticulo detalleArticulo = new frmDetalleArticulo(seleccionado);
-            detalleArticulo.ShowDialog();
+            if (dgvArticulos.CurrentRow != null)
+            {
+                Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                frmDetalleArticulo detalleArticulo = new frmDetalleArticulo(seleccionado);
+                detalleArticulo.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Por favor seleccione un Articulo primero");
+            }
         }
+
     }
 }

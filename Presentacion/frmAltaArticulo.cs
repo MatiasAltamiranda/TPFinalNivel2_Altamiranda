@@ -74,6 +74,11 @@ namespace Presentacion
                     if(archivo != null && !(tbImagen.Text.ToLower().Contains("http")))
                     {
                         string hora = DateTime.Now.ToString("yyyyMMddHHmmss");
+                        string destinoFolder = ConfigurationManager.AppSettings["images-folder"];
+                        if (!Directory.Exists(destinoFolder))
+                        {
+                            Directory.CreateDirectory(destinoFolder);
+                        }
                         File.Copy(archivo.FileName, ConfigurationManager.AppSettings["images-folder"] + hora +archivo.SafeFileName );
                     }
 
