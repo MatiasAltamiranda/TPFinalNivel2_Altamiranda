@@ -36,6 +36,9 @@ namespace Presentacion
             abrirFormHijo(new Articulos());
         }
 
-
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            abrirFormHijo(new Inicio());
+        }
     }
 }

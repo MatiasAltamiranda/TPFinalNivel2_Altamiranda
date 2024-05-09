@@ -33,3 +33,4 @@ D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presenta
 D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.exe
 D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.pdb
 D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.frmDetalleArticulo.resources
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.Inicio.resources
