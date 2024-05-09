@@ -56,7 +56,6 @@ namespace Presentacion
             {
                 Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
                 cargarImagen(seleccionado.ImagenUrl);
-                imgCaption.Text = seleccionado.Nombre;
             }
         }
 
@@ -224,6 +223,12 @@ namespace Presentacion
             }
         }
 
-      
+        private void btnDetalle_Click(object sender, EventArgs e)
+        {
+            Articulo seleccionado;
+            seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+            frmDetalleArticulo detalleArticulo = new frmDetalleArticulo(seleccionado);
+            detalleArticulo.ShowDialog();
+        }
     }
 }

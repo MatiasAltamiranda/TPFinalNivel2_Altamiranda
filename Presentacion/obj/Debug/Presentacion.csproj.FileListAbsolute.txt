@@ -15,3 +15,21 @@ D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Prese
 D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Negocio.pdb
 D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
 D:\Matias\Cursos\MaxiPrograma\Entrega proyecto 2\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.frmAltaArticulo.resources
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Presentacion.exe
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Presentacion.pdb
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Dominio.dll
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Negocio.dll
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Dominio.pdb
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\bin\Debug\Negocio.pdb
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.Form1.resources
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.Articulos.resources
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.frmAltaArticulo.resources
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.exe
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.pdb
+D:\Lucas\proyecto .net\TPFinalNivel2_Altamiranda\Presentacion\obj\Debug\Presentacion.frmDetalleArticulo.resources

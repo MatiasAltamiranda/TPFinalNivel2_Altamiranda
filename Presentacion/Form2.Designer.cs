@@ -32,7 +32,6 @@
             this.dgvArticulos = new System.Windows.Forms.DataGridView();
             this.pbArticulo = new System.Windows.Forms.PictureBox();
             this.btnAgregarArticulo = new System.Windows.Forms.Button();
-            this.imgCaption = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,6 +43,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.tbValor = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnDetalle = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArticulo)).BeginInit();
             this.SuspendLayout();
@@ -77,7 +77,7 @@
             // 
             // pbArticulo
             // 
-            this.pbArticulo.Location = new System.Drawing.Point(754, 182);
+            this.pbArticulo.Location = new System.Drawing.Point(754, 146);
             this.pbArticulo.Name = "pbArticulo";
             this.pbArticulo.Size = new System.Drawing.Size(290, 276);
             this.pbArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,15 +96,6 @@
             this.btnAgregarArticulo.Text = "Nuevo";
             this.btnAgregarArticulo.UseVisualStyleBackColor = false;
             this.btnAgregarArticulo.Click += new System.EventHandler(this.btnAgregarArticulo_Click);
-            // 
-            // imgCaption
-            // 
-            this.imgCaption.AutoSize = true;
-            this.imgCaption.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imgCaption.Location = new System.Drawing.Point(756, 147);
-            this.imgCaption.Name = "imgCaption";
-            this.imgCaption.Size = new System.Drawing.Size(0, 20);
-            this.imgCaption.TabIndex = 4;
             // 
             // btnEliminar
             // 
@@ -227,12 +218,26 @@
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
+            // btnDetalle
+            // 
+            this.btnDetalle.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnDetalle.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetalle.ForeColor = System.Drawing.Color.White;
+            this.btnDetalle.Location = new System.Drawing.Point(777, 428);
+            this.btnDetalle.Name = "btnDetalle";
+            this.btnDetalle.Size = new System.Drawing.Size(237, 38);
+            this.btnDetalle.TabIndex = 16;
+            this.btnDetalle.Text = "Ver detalle";
+            this.btnDetalle.UseVisualStyleBackColor = false;
+            this.btnDetalle.Click += new System.EventHandler(this.btnDetalle_Click);
+            // 
             // Articulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1116, 553);
+            this.Controls.Add(this.btnDetalle);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.tbValor);
             this.Controls.Add(this.label5);
@@ -244,7 +249,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnEliminar);
-            this.Controls.Add(this.imgCaption);
             this.Controls.Add(this.btnAgregarArticulo);
             this.Controls.Add(this.pbArticulo);
             this.Controls.Add(this.dgvArticulos);
@@ -266,7 +270,6 @@
         private System.Windows.Forms.DataGridView dgvArticulos;
         private System.Windows.Forms.PictureBox pbArticulo;
         private System.Windows.Forms.Button btnAgregarArticulo;
-        private System.Windows.Forms.Label imgCaption;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Label label2;
@@ -278,5 +281,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox tbValor;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Button btnDetalle;
     }
 }
