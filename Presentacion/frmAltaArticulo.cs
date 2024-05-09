@@ -3,18 +3,22 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dominio;
-using Negocio;  
+using Negocio;
+using System.Configuration;
 
 namespace Presentacion
 {
     public partial class frmAltaArticulo : Form
     {
         private Articulo articulo = null;
+        private OpenFileDialog archivo = null;  
+
         public frmAltaArticulo()
         {
             InitializeComponent();
@@ -66,6 +70,13 @@ namespace Presentacion
                         articuloNegocio.agregar(articulo);
                         MessageBox.Show("Articulo agregado exitosamente");
                     }
+
+                    if(archivo != null && !(tbImagen.Text.ToLower().Contains("http")))
+                    {
+                        string hora = DateTime.Now.ToString("yyyyMMddHHmmss");
+                        File.Copy(archivo.FileName, ConfigurationManager.AppSettings["images-folder"] + hora +archivo.SafeFileName );
+                    }
+
                     Close();
                 }
 
@@ -133,9 +144,22 @@ namespace Presentacion
         private void tbPrecio_KeyPress(object sender, KeyPressEventArgs e)
         {
             {
-                if ((e.KeyChar < 48 || e.KeyChar > 59 ) && e.KeyChar != 8 && e.KeyChar == 46)
+                if ((e.KeyChar < 48 || e.KeyChar > 59  ) && e.KeyChar != 8 && e.KeyChar != ',')
                     e.Handled = true;
             }
         }
+
+        private void btnAgregarImagen_Click(object sender, EventArgs e)
+        {
+           
+            archivo = new OpenFileDialog();
+            archivo.Filter = "jpg|*.jpg;|png|*.png";
+            if(archivo.ShowDialog() == DialogResult.OK ) {
+                tbImagen.Text = archivo.FileName;
+                cargarImagen(archivo.FileName);
+            }
+        }
+
+    
     }
 }

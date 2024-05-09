@@ -45,6 +45,7 @@
             this.cbMarca = new System.Windows.Forms.ComboBox();
             this.cbCategorias = new System.Windows.Forms.ComboBox();
             this.pbImagenAgregar = new System.Windows.Forms.PictureBox();
+            this.btnAgregarImagen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagenAgregar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(136, 55);
+            this.label1.Location = new System.Drawing.Point(129, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 20);
             this.label1.TabIndex = 0;
@@ -62,7 +63,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(131, 88);
+            this.label2.Location = new System.Drawing.Point(124, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 20);
             this.label2.TabIndex = 1;
@@ -72,7 +73,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(109, 123);
+            this.label3.Location = new System.Drawing.Point(102, 123);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 20);
             this.label3.TabIndex = 2;
@@ -82,7 +83,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(140, 161);
+            this.label4.Location = new System.Drawing.Point(133, 161);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 20);
             this.label4.TabIndex = 3;
@@ -92,7 +93,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(123, 195);
+            this.label5.Location = new System.Drawing.Point(116, 195);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 20);
             this.label5.TabIndex = 4;
@@ -102,7 +103,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(135, 232);
+            this.label6.Location = new System.Drawing.Point(128, 232);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(51, 20);
             this.label6.TabIndex = 5;
@@ -112,7 +113,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(140, 266);
+            this.label7.Location = new System.Drawing.Point(133, 266);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(45, 20);
             this.label7.TabIndex = 6;
@@ -121,31 +122,31 @@
             // tbCodigo
             // 
             this.tbCodigo.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCodigo.Location = new System.Drawing.Point(188, 52);
+            this.tbCodigo.Location = new System.Drawing.Point(181, 52);
             this.tbCodigo.Name = "tbCodigo";
-            this.tbCodigo.Size = new System.Drawing.Size(221, 25);
+            this.tbCodigo.Size = new System.Drawing.Size(262, 25);
             this.tbCodigo.TabIndex = 0;
             // 
             // tbNombre
             // 
             this.tbNombre.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbNombre.Location = new System.Drawing.Point(188, 85);
+            this.tbNombre.Location = new System.Drawing.Point(181, 85);
             this.tbNombre.Name = "tbNombre";
-            this.tbNombre.Size = new System.Drawing.Size(221, 25);
+            this.tbNombre.Size = new System.Drawing.Size(262, 25);
             this.tbNombre.TabIndex = 1;
             // 
             // tbDescripcion
             // 
             this.tbDescripcion.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbDescripcion.Location = new System.Drawing.Point(188, 120);
+            this.tbDescripcion.Location = new System.Drawing.Point(181, 120);
             this.tbDescripcion.Name = "tbDescripcion";
-            this.tbDescripcion.Size = new System.Drawing.Size(221, 25);
+            this.tbDescripcion.Size = new System.Drawing.Size(262, 25);
             this.tbDescripcion.TabIndex = 2;
             // 
             // tbImagen
             // 
             this.tbImagen.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbImagen.Location = new System.Drawing.Point(188, 229);
+            this.tbImagen.Location = new System.Drawing.Point(181, 229);
             this.tbImagen.Name = "tbImagen";
             this.tbImagen.Size = new System.Drawing.Size(221, 25);
             this.tbImagen.TabIndex = 5;
@@ -154,9 +155,9 @@
             // tbPrecio
             // 
             this.tbPrecio.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPrecio.Location = new System.Drawing.Point(188, 264);
+            this.tbPrecio.Location = new System.Drawing.Point(181, 264);
             this.tbPrecio.Name = "tbPrecio";
-            this.tbPrecio.Size = new System.Drawing.Size(221, 25);
+            this.tbPrecio.Size = new System.Drawing.Size(262, 25);
             this.tbPrecio.TabIndex = 6;
             this.tbPrecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbPrecio_KeyPress);
             // 
@@ -191,9 +192,9 @@
             this.cbMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbMarca.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMarca.FormattingEnabled = true;
-            this.cbMarca.Location = new System.Drawing.Point(188, 157);
+            this.cbMarca.Location = new System.Drawing.Point(181, 157);
             this.cbMarca.Name = "cbMarca";
-            this.cbMarca.Size = new System.Drawing.Size(221, 28);
+            this.cbMarca.Size = new System.Drawing.Size(262, 28);
             this.cbMarca.TabIndex = 3;
             // 
             // cbCategorias
@@ -201,19 +202,29 @@
             this.cbCategorias.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCategorias.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbCategorias.FormattingEnabled = true;
-            this.cbCategorias.Location = new System.Drawing.Point(188, 191);
+            this.cbCategorias.Location = new System.Drawing.Point(181, 191);
             this.cbCategorias.Name = "cbCategorias";
-            this.cbCategorias.Size = new System.Drawing.Size(221, 28);
+            this.cbCategorias.Size = new System.Drawing.Size(262, 28);
             this.cbCategorias.TabIndex = 4;
             // 
             // pbImagenAgregar
             // 
-            this.pbImagenAgregar.Location = new System.Drawing.Point(461, 50);
+            this.pbImagenAgregar.Location = new System.Drawing.Point(469, 50);
             this.pbImagenAgregar.Name = "pbImagenAgregar";
             this.pbImagenAgregar.Size = new System.Drawing.Size(202, 202);
             this.pbImagenAgregar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImagenAgregar.TabIndex = 18;
             this.pbImagenAgregar.TabStop = false;
+            // 
+            // btnAgregarImagen
+            // 
+            this.btnAgregarImagen.Location = new System.Drawing.Point(382, 227);
+            this.btnAgregarImagen.Name = "btnAgregarImagen";
+            this.btnAgregarImagen.Size = new System.Drawing.Size(62, 28);
+            this.btnAgregarImagen.TabIndex = 19;
+            this.btnAgregarImagen.Text = "Buscar...";
+            this.btnAgregarImagen.UseVisualStyleBackColor = true;
+            this.btnAgregarImagen.Click += new System.EventHandler(this.btnAgregarImagen_Click);
             // 
             // frmAltaArticulo
             // 
@@ -221,6 +232,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAgregarImagen);
             this.Controls.Add(this.pbImagenAgregar);
             this.Controls.Add(this.cbCategorias);
             this.Controls.Add(this.cbMarca);
@@ -269,5 +281,6 @@
         private System.Windows.Forms.ComboBox cbMarca;
         private System.Windows.Forms.ComboBox cbCategorias;
         private System.Windows.Forms.PictureBox pbImagenAgregar;
+        private System.Windows.Forms.Button btnAgregarImagen;
     }
 }
